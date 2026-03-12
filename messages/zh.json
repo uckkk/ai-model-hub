@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "AI模型价格对比",
+    "subtitle": "发现比GPT-4便宜10-100倍的中国AI模型",
+    "cta": "开始省钱",
+    "international": "国际模型",
+    "chinese": "中国模型",
+    "model": "模型",
+    "price": "价格（每百万tokens）",
+    "savings": "相比GPT-4节省",
+    "calculator": {
+      "title": "省钱计算器",
+      "usage": "月使用量（百万tokens）",
+      "current": "当前模型",
+      "switch": "切换到",
+      "result": "每月可省${amount}"
+    }
+  }
+}

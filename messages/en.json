@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "AI Model Price Comparison",
+    "subtitle": "Discover Chinese AI models that are 10-100x cheaper than GPT-4",
+    "cta": "Start Saving Money",
+    "international": "International Models",
+    "chinese": "Chinese Models",
+    "model": "Model",
+    "price": "Price (per 1M tokens)",
+    "savings": "Savings vs GPT-4",
+    "calculator": {
+      "title": "Cost Savings Calculator",
+      "usage": "Monthly Usage (Million tokens)",
+      "current": "Current Model",
+      "switch": "Switch to",
+      "result": "You'll save ${amount}/month"
+    }
+  }
+}
