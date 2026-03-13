@@ -23,8 +23,8 @@ export default function Home() {
 
   const gpt4Price = 30;
   const cheapestChinese = 0.11;
-  const monthlySavings = ((gpt4Price - cheapestChinese) * usage).toFixed(0);
-  const yearlySavings = (monthlySavings * 12).toFixed(0);
+  const monthlySavings = ((gpt4Price - cheapestChinese) * usage);
+  const yearlySavings = (monthlySavings * 12);
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -55,10 +55,10 @@ export default function Home() {
           <div className="text-center mb-8">
             <div className="text-5xl font-black text-red-400 mb-2">YOU'RE LOSING</div>
             <div className="text-8xl font-black bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent mb-4">
-              ${monthlySavings}<span className="text-4xl">/mo</span>
+              ${monthlySavings.toFixed(0)}<span className="text-4xl">/mo</span>
             </div>
             <div className="text-2xl text-gray-300">
-              That's <span className="text-yellow-400 font-bold">${yearlySavings}/year</span> down the drain
+              That's <span className="text-yellow-400 font-bold">${yearlySavings.toFixed(0)}/year</span> down the drain
             </div>
           </div>
 
